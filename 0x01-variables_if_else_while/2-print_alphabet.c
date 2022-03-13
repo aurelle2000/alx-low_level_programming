@@ -1,4 +1,4 @@
-0;10;1c0;10;1c0;10;1c#include <stdio.h>
+#include <stdio.h>
 
 /**
  * main - Prints the alphabetic
@@ -10,8 +10,8 @@ int main(void)
 char c;
 
 for (c = 'a'; c <= 'z'; c++)
-putchar(c);
+  putchar(c);
 
-putchar('\n');
+ putchar('\n');
 return (0);
 }
