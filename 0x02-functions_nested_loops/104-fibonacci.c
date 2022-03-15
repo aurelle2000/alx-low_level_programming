@@ -8,7 +8,7 @@
 int main(void)
 {
 int i = 0;
-for j = 1, k = 2;
+free j = 1, k = 2;
 
 while (i < 98)
 {
