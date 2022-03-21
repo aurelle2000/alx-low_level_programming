@@ -1,11 +1,16 @@
+/*
+* File: 100-atoi.c
+* Auth: Aurelle ADJAHOU
+ */
+
 #include "main.h"
 
-/**
- * _atoi - Converts a string to an integer.
- * @s: The string to be converted.
- *
- * Return: The integer value of the converted string.
- */
+	/**
+	 * _atoi - Converts a string to an integer.
+	 * @s: The string to be converted.
+	 *
+	 * Return: The integer value of the converted string.
+	 */
 int _atoi(char *s)
 {
 int sign = 1;
@@ -25,3 +30,4 @@ break;
 
 return (num * sign);
 }
+
