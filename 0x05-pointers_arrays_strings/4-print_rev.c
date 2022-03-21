@@ -14,6 +14,5 @@ len++;
 for (index = len - 1; index >= 0; index--)
 _putchar(s[index]);
 
-_putchar('\n');
- 
+_putchar('\n'); 
 }
