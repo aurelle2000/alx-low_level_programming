@@ -1,8 +1,3 @@
-/*
-* File: 100-atoi.c
-* Auth: Aurelle ADJAHOU
- */
-
 #include "main.h"
 
 	/**
@@ -28,6 +23,6 @@ break;
 
 } while (*s++);
 
-return (num * sign);
+return (num *sign);
 }
 
